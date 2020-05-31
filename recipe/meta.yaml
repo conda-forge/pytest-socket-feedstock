@@ -1,18 +1,18 @@
 {% set name = "pytest-socket" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.5" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a90401b7a6db7091add1e33fc94a29dae6b449fdc469a725bd7cea303d12a7ed
+  sha256: b30470fe8a0ecdbfdbfc35c1e4ac9c823f0348181570792e71ac234e07c6340f
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
