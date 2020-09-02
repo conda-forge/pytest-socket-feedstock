@@ -5,7 +5,7 @@ Home: https://github.com/miketheman/pytest-socket
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Pytest Plugin to disable socket calls during tests
 
