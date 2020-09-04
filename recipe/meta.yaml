@@ -1,5 +1,5 @@
 {% set name = "pytest-socket" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6480d6962b1f908f4b7c267ed4cfbc8fe27555562dec31cf9f8988fc1bf11f64
+  sha256: b30470fe8a0ecdbfdbfc35c1e4ac9c823f0348181570792e71ac234e07c6340f
 
 build:
   number: 0
