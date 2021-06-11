@@ -25,8 +25,12 @@ requirements:
     - python
 
 test:
+  requires:
+    - pip
   imports:
     - pytest_socket
+  commands:
+    - python -m pip check
 
 about:
   home: https://github.com/miketheman/pytest-socket
