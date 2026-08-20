@@ -12,7 +12,6 @@ Summary: Pytest Plugin to disable socket calls during tests
 A plugin to use with Pytest to disable or restrict socket calls
 during tests to ensure network calls are prevented.
 
-
 Current build status
 ====================
 
